@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 
 int main()
 {
@@ -11,5 +12,11 @@ int main()
     {
         cout << "Hi there\n";
     }
+
+    for (int i = 0; i < 10; ++i)
+    {
+        cout << "Goodbye\n";
+    }
+
     return 0;
 }
